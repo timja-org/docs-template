@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docs
+  description: docs
+  annotations:
+    github.com/project-slug: timja-org/docs-template
+    backstage.io/techdocs-ref: github:https://github.com/timja-org/docs-template
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: guest
